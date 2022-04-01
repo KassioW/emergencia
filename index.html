@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="style.css">
+
+<div class="container" >
+  <a class="links" id="paracadastro"></a>
+  <a class="links" id="paralogin"></a>
+  
+  <div class="content">      
+    <!--FORMULÁRIO DE LOGIN-->
+    <div id="login">
+      <form method="post" action=""> 
+        <h1>INTERFACE DE AGILIZAÇÃO EMERGÊNCIAL</h1> 
+                
+        <p> 
+          <label for="nome_cad">O quê você está sentindo?</label>
+          <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Estou com fortes dores de cabeça..." />
+        </p>
+
+        <p> 
+          <input type="checkbox" name="Prioritário" id="manterlogado" value="" /> 
+          <label for="manterlogado">Prioridade máxima</label>
+        </p>
+        
+        <p> 
+          <input type="submit" value="Logar" /> 
+        </p>
+        
+        <p class="link">
+          Registrar seu atendimento
+          <a href="#paracadastro">Ir para registro</a>
+        </p>
+      </form>
+    </div>
+
+    <!--FORMULÁRIO DE CADASTRO-->
+    <div id="cadastro">
+      <form method="post" action=""> 
+        <h1>registro</h1> 
+        
+        <p> 
+          <label for="nome_cad">Seu nome</label>
+          <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Kassio Oliveira" />
+        </p>
+
+        <p> 
+          <label for="senha_cad">Seu CPF</label>
+          <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="111.222.333-45"/>
+        </p>
+        
+        <p> 
+          <input type="submit" value="Prosseguir"/> 
+        </p>
+        
+        <p class="link">  
+          EMERGÊNCIA
+          <a href="#paralogin"> Ir para emergência! </a>
+        </p>
+      </form>
+    </div>
+  </div>
+</div> 
