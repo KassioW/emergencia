@@ -45,7 +45,7 @@ btAdicionar.addEventListener("click", adicionarpacientes);
                
                 btFiltrar.addEventListener("click", filtrarpacientes);
                 function filtrarpacientes(){
-                var maximo = Number(prompt("(Digite o numero da prioridade)N° acertos ap?"));
+                var maximo = Number(prompt("(Digite o numero da prioridade)"));
                    
                     if (maximo == 0 || isNaN(maximo)){
                     return;
